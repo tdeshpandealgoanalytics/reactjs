@@ -1,0 +1,29 @@
+.bg{
+    background-color: #f8f8f8;
+    width: 65%;
+    height: 80vh;
+    padding-left: 20px;
+}
+.bg img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    
+  }
+
+@media (max-width: 768px) {
+    .bg{
+        background-color: #f8f8f8;
+        width: 100%; /* Reset width for mobile view */
+        height: 45vh;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center; /* Vertically center the content */
+    }
+    .bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+      }
+}
