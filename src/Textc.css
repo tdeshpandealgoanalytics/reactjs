@@ -1,0 +1,33 @@
+.backg{
+    background-color: #f8f8f8;
+    width: 40%;
+    height: 80vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head1{
+    color: #6f8df8;
+}
+
+.para {
+    color: #000000;
+    font-size: 21px;
+    padding-top: 6%;
+}
+
+@media (max-width: 768px) {
+    .backg{
+        background-color: #f8f8f8;
+        width: 100%; /* Reset width for mobile view */
+        height: 40vh;
+    }
+
+    .head1{
+        font-size: 18px;
+        color: #6f8df8;
+    }
+
+    .para{
+        font-size: 18px;
+    }
+}
